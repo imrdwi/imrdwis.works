@@ -1,7 +1,7 @@
 <header id="site_header" class="header mobile-menu-hide">
   <div class="header-content">
     <div class="header-photo">
-      <img src="{{ asset('img/imrdwi.jpg') }}" alt="Rizki Dwi Kurniawan">
+      <img src="{{ asset('site/img/imrdwi.jpg') }}" alt="Rizki Dwi Kurniawan">
     </div>
     <div class="header-titles">
       <h2>Rizki Dwi Kurniawan</h2>

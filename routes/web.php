@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PortfoliosController;
 use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [SiteController::class, 'index']);
 Route::post('/contact', [SiteController::class, 'contact']);
+
+Route::get('/portfolios/site1', [PortfoliosController::class, 'site1']);
